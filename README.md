@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Projeto calculadora de Pitagoras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Autor**: Weslley Augusto de Oliveira
 
-## Available Scripts
+**Resumo:** O desafio é desenvolver uma calculadora que será capaz de calcular a relação entre os lados de um triângulo
+retângulo. Tudo isso utilizando javascript, HTML5, CSS3  e uma API em Python utilizando flask ou django.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Observações
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* A maioria destas tecnologias tive pouco ou nenhum contato.
+* Irão ser 4 dias de desenvolvendo, começando 22/01/2023 e acabando 23/01/2023.
+* Nesse repositório vou contar  mais ou menos passo a passo de como tudo foi feito.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Front-end
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pois bem, neste começo como o desafio pedia front-end usando javascript, optei por aprender e utilizar o framework ReactJS. Então tive que pesquisar como instalar e usar, logo a seguir vou mostar como foi feita essa parte. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## React-js
+   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   <center> O QUE É REACT-JS? </center>
 
-### `npm run eject`
+````
+O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<center>COMO BAIXAR, INSTALAR E USAR? </center>
+  
+    
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* 1º passo, é baixar e instalar o [NodeJS](https://nodejs.org/en/download/).
+* 2º passo, criar um diretório para seu projeto.
+* 3º passo, instalar o React com o comando: `npm create-react-app my-app ` 
+* 4º passo, para começar a usar, basta digitar o seguinte comando(dentro do diretório my-app que criou): `npm start`
+* 5º passo, colocar a mão na massa e começar a programar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
