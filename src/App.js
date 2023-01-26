@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import axios from "axios";
 import './index.css'
 
 function App() {
@@ -11,18 +12,20 @@ function App() {
     const [b, setb] = useState(0) // Variável b com uma função de set
     const [c, setc] = useState(0) // Variável c com uma função de set
 
-
-
-
-
-
-
+    const [resposta, setResposta] = useState("")
 
     //Função de alerta para mostrar o resultado.
-    function evento(){
-        alert("Valores de A:" + a + ", de B: " + b + " e C: " + c)
-    }
+    function evento() {
 
+        let url = 'http://127.0.0.1:8000/calcular/'+a+'/'+b+'/'+c+'/'
+
+
+        //Consultar API:
+        
+        axios.get(url)
+        .then( (data) => setResposta(data))
+
+    }
 
     // ------------Front-end---------------
     return (
@@ -44,18 +47,18 @@ function App() {
                 <form class="form" id="form">
                     <label for="a">
                         a:
-                        <input name="a" id="a" type="number" value={a} onChange={(e)=> seta(e.target.value)}/>
+                        <input name="a" id="a" type="number" value={a} onChange={(e) => seta(e.target.value)} />
                     </label>
                     <label for="b">
                         b:
-                        <input name="b" id="b" type="number" value={b} onChange={(e)=> setb(e.target.value)} />
+                        <input name="b" id="b" type="number" value={b} onChange={(e) => setb(e.target.value)} />
                     </label>
                     <label for="c">
                         c:
-                        <input name="c" id="c" type="number" value={c} onChange={(e)=> setc(e.target.value)} />
+                        <input name="c" id="c" type="number" value={c} onChange={(e) => setc(e.target.value)} />
                     </label>
-                    <button onClick={evento}>Calcular</button>
-
+                    <button onClick={evento} >Calcular</button>
+                    <p>Resposta: {resposta.mystring} </p>
                 </form>
 
 
@@ -65,9 +68,6 @@ function App() {
 
                 </div></div>
 
-
-
-           
 
         </div>
     )
