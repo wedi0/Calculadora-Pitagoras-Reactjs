@@ -41,6 +41,12 @@ O React é uma biblioteca front-end JavaScript de código aberto com foco em cri
 
 * 5º passo, colocar a mão na massa e começar a programar.
 
+### Imagem de como ficou o disign:
+
+![image](https://user-images.githubusercontent.com/84606803/214723213-15c2d9bb-cd59-4da0-b028-421fef418db9.png)
+obs:*esse "Resposta" adicionei mais tarde no projeto para testar a API e não formatei ele :D*
+
+
 ### Links que me ajudaram:
 
 * Site oficial do [React](https://pt-br.reactjs.org/docs/getting-started.html) porque lá tem a documentação e tutorias muito bons.
