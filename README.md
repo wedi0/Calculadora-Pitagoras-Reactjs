@@ -72,7 +72,7 @@ links úteis:
 
 A API criada para realizar o calculo foi feita no framework Django e é responsável por pegar o valor das variáveis enviadas e retornar uma resposta em formato json do resultado. 
 
-[Link para API]()
+[Link para API](https://github.com/wedi0/API-Django-Calculadora-de-Pitagoras/blob/main/README.md)
 
 ------------
 
