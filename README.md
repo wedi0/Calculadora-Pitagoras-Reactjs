@@ -43,8 +43,8 @@ O React é uma biblioteca front-end JavaScript de código aberto com foco em cri
 
 ### Imagem de como ficou o disign:
 
-![image](https://user-images.githubusercontent.com/84606803/214723213-15c2d9bb-cd59-4da0-b028-421fef418db9.png)
-obs:*esse "Resposta" adicionei mais tarde no projeto para testar a API e não formatei ele :D*
+![image](https://user-images.githubusercontent.com/84606803/214723946-e34dc9d9-d5eb-4370-8ec6-08c2aa0064ed.png)
+obs:*Esse "Resposta" adicionei mais tarde no projeto para testar a API e não formatei ele :D*
 
 
 ### Links que me ajudaram:
