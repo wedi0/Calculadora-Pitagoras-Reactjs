@@ -39,8 +39,8 @@ function App() {
 
             <div className='bloco'>
                 <p className="instrucao">
-                    Insira dois valores para calcular o lado que falta do
-                    triangulo:
+                    Digite dois valores para calcular o lado que falta do
+                    triângulo retangulo:
                 </p>
 
 
